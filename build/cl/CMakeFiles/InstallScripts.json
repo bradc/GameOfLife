@@ -1,0 +1,11 @@
+{
+	"Configs" : 
+	[
+		"Debug"
+	],
+	"InstallScripts" : 
+	[
+		"D:/Projects/cpp/GameOfLife/build/cl/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

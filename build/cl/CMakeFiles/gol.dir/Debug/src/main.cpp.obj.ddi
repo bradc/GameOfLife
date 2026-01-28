@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\gol.dir\\Debug\\src\\main.cpp.obj",
+            "outputs": [
+                "D:\\Projects\\cpp\\GameOfLife\\build\\cl\\vc140.pdb",
+                "CMakeFiles\\gol.dir\\Debug\\src\\main.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

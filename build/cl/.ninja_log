@@ -1,0 +1,21 @@
+# ninja log v7
+74	2483	7912950004012042	CMakeFiles/gol.dir/Debug/src/utility.cpp.obj.ddi	f4b5e1ff3f9fea9
+9	237	7912993085285672	CMakeFiles/gol.dir/Debug/src/main.cpp.obj.ddi	2bc6a312e48dc379
+25	289	7912993085455840	CMakeFiles/gol.dir/Debug/src/life.cpp.obj.ddi	655a932051b53384
+289	372	7912993088085579	CMakeFiles/gol.dir/Debug/CXX.dd	b6682b8a157a1c65
+289	372	7912993088085579	CMakeFiles/gol.dir/Debug/CXXModules.json	b6682b8a157a1c65
+289	372	7912993088085579	CMakeFiles/gol.dir/Debug/src/main.cpp.obj.modmap	b6682b8a157a1c65
+289	372	7912993088085579	CMakeFiles/gol.dir/Debug/src/life.cpp.obj.modmap	b6682b8a157a1c65
+289	372	7912993088085579	CMakeFiles/gol.dir/Debug/src/utility.cpp.obj.modmap	b6682b8a157a1c65
+373	1622	7912993088925608	CMakeFiles/gol.dir/Debug/src/main.cpp.obj	ea5d0073f99cec2e
+2683	4605	7912950030105578	CMakeFiles/gol.dir/Debug/src/utility.cpp.obj	896d4770bcee87e0
+388	1648	7912993089085600	CMakeFiles/gol.dir/Debug/src/life.cpp.obj	f5e329ce08df1d4d
+1648	3862	7912993101683799	Debug/gol.exe	8466a3d600ec49fb
+13	241	7912994460491748	CMakeFiles/gol.dir/Debug/src/life.cpp.obj.ddi	655a932051b53384
+241	332	7912994462778886	CMakeFiles/gol.dir/Debug/CXX.dd	b6682b8a157a1c65
+241	332	7912994462778886	CMakeFiles/gol.dir/Debug/CXXModules.json	b6682b8a157a1c65
+241	332	7912994462778886	CMakeFiles/gol.dir/Debug/src/main.cpp.obj.modmap	b6682b8a157a1c65
+241	332	7912994462778886	CMakeFiles/gol.dir/Debug/src/life.cpp.obj.modmap	b6682b8a157a1c65
+241	332	7912994462778886	CMakeFiles/gol.dir/Debug/src/utility.cpp.obj.modmap	b6682b8a157a1c65
+333	1263	7912994463688855	CMakeFiles/gol.dir/Debug/src/life.cpp.obj	f5e329ce08df1d4d
+1263	3336	7912994472984799	Debug/gol.exe	8466a3d600ec49fb

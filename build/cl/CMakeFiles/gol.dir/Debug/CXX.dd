@@ -1,0 +1,7 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles\gol.dir\Debug\src\main.cpp.obj: dyndep
+
+build CMakeFiles\gol.dir\Debug\src\life.cpp.obj: dyndep
+
+build CMakeFiles\gol.dir\Debug\src\utility.cpp.obj: dyndep
+

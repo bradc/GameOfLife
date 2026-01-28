@@ -1,0 +1,56 @@
+[
+{
+  "directory": "D:/Projects/cpp/GameOfLife/build/cl",
+  "command": "\"D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -DCMAKE_INTDIR=\\\"Debug\\\" -ID:\\Projects\\cpp\\GameOfLife\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20 @CMakeFiles\\gol.dir\\Debug\\src\\main.cpp.obj.modmap /FoCMakeFiles\\gol.dir\\Debug\\src\\main.cpp.obj /FdCMakeFiles\\gol.dir\\Debug\\ /FS -c D:\\Projects\\cpp\\GameOfLife\\src\\main.cpp",
+  "file": "D:/Projects/cpp/GameOfLife/src/main.cpp",
+  "output": "D:/Projects/cpp/GameOfLife/build/cl/CMakeFiles/gol.dir/Debug/src/main.cpp.obj"
+},
+{
+  "directory": "D:/Projects/cpp/GameOfLife/build/cl",
+  "command": "\"D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -DCMAKE_INTDIR=\\\"Debug\\\" -ID:\\Projects\\cpp\\GameOfLife\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20 @CMakeFiles\\gol.dir\\Debug\\src\\life.cpp.obj.modmap /FoCMakeFiles\\gol.dir\\Debug\\src\\life.cpp.obj /FdCMakeFiles\\gol.dir\\Debug\\ /FS -c D:\\Projects\\cpp\\GameOfLife\\src\\life.cpp",
+  "file": "D:/Projects/cpp/GameOfLife/src/life.cpp",
+  "output": "D:/Projects/cpp/GameOfLife/build/cl/CMakeFiles/gol.dir/Debug/src/life.cpp.obj"
+},
+{
+  "directory": "D:/Projects/cpp/GameOfLife/build/cl",
+  "command": "\"D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -DCMAKE_INTDIR=\\\"Debug\\\" -ID:\\Projects\\cpp\\GameOfLife\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20 @CMakeFiles\\gol.dir\\Debug\\src\\utility.cpp.obj.modmap /FoCMakeFiles\\gol.dir\\Debug\\src\\utility.cpp.obj /FdCMakeFiles\\gol.dir\\Debug\\ /FS -c D:\\Projects\\cpp\\GameOfLife\\src\\utility.cpp",
+  "file": "D:/Projects/cpp/GameOfLife/src/utility.cpp",
+  "output": "D:/Projects/cpp/GameOfLife/build/cl/CMakeFiles/gol.dir/Debug/src/utility.cpp.obj"
+},
+{
+  "directory": "D:/Projects/cpp/GameOfLife/build/cl",
+  "command": "\"D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -DCMAKE_INTDIR=\\\"Release\\\" -ID:\\Projects\\cpp\\GameOfLife\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20 @CMakeFiles\\gol.dir\\Release\\src\\main.cpp.obj.modmap /FoCMakeFiles\\gol.dir\\Release\\src\\main.cpp.obj /FdCMakeFiles\\gol.dir\\Release\\ /FS -c D:\\Projects\\cpp\\GameOfLife\\src\\main.cpp",
+  "file": "D:/Projects/cpp/GameOfLife/src/main.cpp",
+  "output": "D:/Projects/cpp/GameOfLife/build/cl/CMakeFiles/gol.dir/Release/src/main.cpp.obj"
+},
+{
+  "directory": "D:/Projects/cpp/GameOfLife/build/cl",
+  "command": "\"D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -DCMAKE_INTDIR=\\\"Release\\\" -ID:\\Projects\\cpp\\GameOfLife\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20 @CMakeFiles\\gol.dir\\Release\\src\\life.cpp.obj.modmap /FoCMakeFiles\\gol.dir\\Release\\src\\life.cpp.obj /FdCMakeFiles\\gol.dir\\Release\\ /FS -c D:\\Projects\\cpp\\GameOfLife\\src\\life.cpp",
+  "file": "D:/Projects/cpp/GameOfLife/src/life.cpp",
+  "output": "D:/Projects/cpp/GameOfLife/build/cl/CMakeFiles/gol.dir/Release/src/life.cpp.obj"
+},
+{
+  "directory": "D:/Projects/cpp/GameOfLife/build/cl",
+  "command": "\"D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -DCMAKE_INTDIR=\\\"Release\\\" -ID:\\Projects\\cpp\\GameOfLife\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O2 /Ob2 /DNDEBUG -std:c++20 @CMakeFiles\\gol.dir\\Release\\src\\utility.cpp.obj.modmap /FoCMakeFiles\\gol.dir\\Release\\src\\utility.cpp.obj /FdCMakeFiles\\gol.dir\\Release\\ /FS -c D:\\Projects\\cpp\\GameOfLife\\src\\utility.cpp",
+  "file": "D:/Projects/cpp/GameOfLife/src/utility.cpp",
+  "output": "D:/Projects/cpp/GameOfLife/build/cl/CMakeFiles/gol.dir/Release/src/utility.cpp.obj"
+},
+{
+  "directory": "D:/Projects/cpp/GameOfLife/build/cl",
+  "command": "\"D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -ID:\\Projects\\cpp\\GameOfLife\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG -std:c++20 @CMakeFiles\\gol.dir\\RelWithDebInfo\\src\\main.cpp.obj.modmap /FoCMakeFiles\\gol.dir\\RelWithDebInfo\\src\\main.cpp.obj /FdCMakeFiles\\gol.dir\\RelWithDebInfo\\ /FS -c D:\\Projects\\cpp\\GameOfLife\\src\\main.cpp",
+  "file": "D:/Projects/cpp/GameOfLife/src/main.cpp",
+  "output": "D:/Projects/cpp/GameOfLife/build/cl/CMakeFiles/gol.dir/RelWithDebInfo/src/main.cpp.obj"
+},
+{
+  "directory": "D:/Projects/cpp/GameOfLife/build/cl",
+  "command": "\"D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -ID:\\Projects\\cpp\\GameOfLife\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG -std:c++20 @CMakeFiles\\gol.dir\\RelWithDebInfo\\src\\life.cpp.obj.modmap /FoCMakeFiles\\gol.dir\\RelWithDebInfo\\src\\life.cpp.obj /FdCMakeFiles\\gol.dir\\RelWithDebInfo\\ /FS -c D:\\Projects\\cpp\\GameOfLife\\src\\life.cpp",
+  "file": "D:/Projects/cpp/GameOfLife/src/life.cpp",
+  "output": "D:/Projects/cpp/GameOfLife/build/cl/CMakeFiles/gol.dir/RelWithDebInfo/src/life.cpp.obj"
+},
+{
+  "directory": "D:/Projects/cpp/GameOfLife/build/cl",
+  "command": "\"D:\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.38.33130\\bin\\Hostx64\\x64\\cl.exe\"  /nologo /TP -DCMAKE_INTDIR=\\\"RelWithDebInfo\\\" -ID:\\Projects\\cpp\\GameOfLife\\include /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG -std:c++20 @CMakeFiles\\gol.dir\\RelWithDebInfo\\src\\utility.cpp.obj.modmap /FoCMakeFiles\\gol.dir\\RelWithDebInfo\\src\\utility.cpp.obj /FdCMakeFiles\\gol.dir\\RelWithDebInfo\\ /FS -c D:\\Projects\\cpp\\GameOfLife\\src\\utility.cpp",
+  "file": "D:/Projects/cpp/GameOfLife/src/utility.cpp",
+  "output": "D:/Projects/cpp/GameOfLife/build/cl/CMakeFiles/gol.dir/RelWithDebInfo/src/utility.cpp.obj"
+}
+]

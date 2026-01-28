@@ -1,0 +1,40 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "RelWithDebInfo",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "D:/Projects/cpp/GameOfLife/build/cl",
+	"dir-cur-src" : "D:/Projects/cpp/GameOfLife",
+	"dir-top-bld" : "D:/Projects/cpp/GameOfLife/build/cl",
+	"dir-top-src" : "D:/Projects/cpp/GameOfLife",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"D:\\Projects\\cpp\\GameOfLife\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "D:/Projects/cpp/GameOfLife/build/cl/CMakeFiles/gol.dir/RelWithDebInfo",
+	"sources" : 
+	{
+		"CMakeFiles/gol.dir/RelWithDebInfo/src/life.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Projects/cpp/GameOfLife/src/life.cpp"
+		},
+		"CMakeFiles/gol.dir/RelWithDebInfo/src/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Projects/cpp/GameOfLife/src/main.cpp"
+		},
+		"CMakeFiles/gol.dir/RelWithDebInfo/src/utility.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "D:/Projects/cpp/GameOfLife/src/utility.cpp"
+		}
+	}
+}
