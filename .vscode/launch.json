@@ -10,7 +10,7 @@
             "type": "lldb",
             "request": "launch",
             "program": "${workspaceRoot}/build/cl/Debug/gol.exe",
-            "args": [],
+            "args": ["${workspaceRoot}/configurations/config_2.txt"],
             "cwd": "${workspaceRoot}"
         }
     ]

@@ -51,12 +51,11 @@ bool Life::load_configuration_from_file(const std::string fileName)
     std::fstream in_str(fileName);
     if(!in_str) {
         std::cerr << "Error: file stream failed to open" << std::endl;
-        return false;        
-
+        return false;
     }
 
     in_str >> row >> col;
-    while((row != -1) && (col != -1))
+    while((row != -1) && (col != -1) && !in_str.eof())
     {
         if((row >= 1) && (row <= gMaxRow))  {
             if((col >= 1) && (col <= gMaxCol)) {
@@ -71,6 +70,7 @@ bool Life::load_configuration_from_file(const std::string fileName)
         }
 
         if(!result) break;
+        in_str >> row >> col;
     }
     return result;    
 }
