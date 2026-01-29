@@ -1,9 +1,8 @@
 #include <iostream>
-
 #include "../include/life.hpp"
 #include "../include/utility.hpp"
 
-int main()
+int main(int argc, char **argv)
 {
     /*
     Pre:
@@ -16,8 +15,14 @@ int main()
         The functions instructions(), user_says_yes()
     */
     Life configuration;
+
+    std::string filePath;
+    if(argc > 1) 
+        filePath = argv[1];
+
     instructions();
-    configuration.initialize();
+
+    configuration.initialize(filePath);
     configuration.print();
     std::cout << "Continue viewing new generations? " << std::flush;
     while(user_says_yes()) 

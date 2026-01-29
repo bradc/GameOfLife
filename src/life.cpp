@@ -1,7 +1,9 @@
 #include "../include/life.hpp"
 #include <iostream>
+#include <fstream>
 
-void Life::initialize() {
+void Life::initialize() 
+{
 /*
 Pre: Life class has been allocated.
 Post: The initial configuration has been created.
@@ -34,6 +36,45 @@ NOTE: This should, in future, be changed to read from a file rather than the com
     }
 
 }
+
+void Life::initialize(const std::string fileName)
+{
+    if(!fileName.empty())
+        load_configuration_from_file(fileName);
+}
+
+bool Life::load_configuration_from_file(const std::string fileName) 
+{
+    bool result = true;  
+    int row{0}, col{0};
+
+    std::fstream in_str(fileName);
+    if(!in_str) {
+        std::cerr << "Error: file stream failed to open" << std::endl;
+        return false;        
+
+    }
+
+    in_str >> row >> col;
+    while((row != -1) && (col != -1))
+    {
+        if((row >= 1) && (row <= gMaxRow))  {
+            if((col >= 1) && (col <= gMaxCol)) {
+                grid[row][col] = 1;
+            } else {
+                std::cerr << "Column " << col  << " is out of range." << std::endl;
+                result = false;                    
+            }
+        } else {
+            std::cerr << "Row " << row << " is out of range." << std::endl;
+            result = false;
+        }
+
+        if(!result) break;
+    }
+    return result;    
+}
+
 
 void Life::print() {
 /*
